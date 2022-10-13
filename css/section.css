@@ -1,0 +1,145 @@
+.main-content{
+    position: relative;
+    background-color: #3D8361;
+    width: auto;
+    height: 100vh;
+}
+
+.main-content::before{
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    width: auto;
+    height: 100vh;
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.main-content p{
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    font-weight: 500px;
+}
+
+.p2{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button{
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 5px;
+    border : none;
+}
+
+.content-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.column{
+    float: left;
+    width: 33%;
+}
+
+.columns::after{
+ content: " ";
+ display: table;
+ clear: both;
+}
+
+.content-article{
+    justify-content: center;
+}
+
+.content-article img{
+    width: 65px;
+    height: 50px;
+    margin-left: 180px;
+}
+
+.content-article .text{ 
+    text-align: center; 
+}
+
+.text-content{
+    margin-left: 20px;
+}
+
+/* feature */
+.feature {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.feature-tittle {
+	color: black;
+	font-size: 28px;
+	font-weight: 500px;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	margin-left: -20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.feature-name {
+	color: black;
+	font-size: 28px;
+	font-weight: 500px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+    text-align: center;
+}
+
+.feature-icon {
+	width: 200px;
+	height: 150px;
+    margin-left: 20px;
+}
+
+
+.feature-box {
+	justify-content: space-between;
+	display: flex;
+	margin: 60px 0;
+    
+}
+
+.feature-content{
+	width: 23%;
+	height: 300px;
+}
+
+.feature-container{
+	max-width: 1440px;
+	width: 80%;
+}
+
+.feature-text{
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 26px;
+	color: black;
+}
+
+
+
+
+

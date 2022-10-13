@@ -1,0 +1,12 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.menu-content ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin: -70px 0 80px 20px;
+    color: black; 
+}

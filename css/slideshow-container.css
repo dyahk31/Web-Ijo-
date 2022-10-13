@@ -1,0 +1,28 @@
+/* .slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+} */
+
+.slideshow-box{
+    width: 500px;
+    height: 200p;
+    display: flex;
+    margin-left: 400px;
+}
+
+.mySlides{
+  
+    border-radius: 40%;
+    margin-top: 20px;
+}
+
+.slideshow-title{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.slideshow-text{
+    margin-top: 120px;
+    margin-left: -118px;
+}

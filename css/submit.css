@@ -1,0 +1,33 @@
+.submit{
+    margin-top: 20px;
+    background-color: #3D8361;
+    width: 100vw;
+    height: 100px;
+}
+
+.submit-content{
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+.submit-content input{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border : 2px solid white;
+    margin-right: 20px;
+    background-color: #3D8361;
+}
+
+::placeholder{
+    color: white;
+    margin-left: 20px;
+}
+
+.submit-content button{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: #3D8361;
+}
